@@ -1,0 +1,8 @@
+site_name: "DocumentationProject"
+site_description: "A project for demoing the documentation template"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

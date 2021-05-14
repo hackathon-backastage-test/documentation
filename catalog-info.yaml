@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "DocumentationProject"
+  description: "A project for demoing the documentation template"
+  annotations:
+    github.com/project-slug: hackathon-backastage-test/documentation
+    backstage.io/techdocs-ref: url:https://github.com/hackathon-backastage-test/documentation
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "team-a"
